@@ -12,3 +12,7 @@ re.findall(REGEX_PATTERN, STRING)
 reg_obj = re.compile(REGEX_PATTERN)
 reg_obj.findall(STRING)
 ```
+Tags:
+```
+#Python
+```
