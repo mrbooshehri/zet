@@ -10,6 +10,10 @@ create and return new string objects rather than modify the strings line
 **Note:** Tabs, space character, carriage returns, and line feeds
 consider as whitespace
 
+**Note:** All strip methods remove anything you pass them as an
+argument, if you don't pass them anything they will remove only
+whitespaces.
+
 Tags:
 ```
 #Python
