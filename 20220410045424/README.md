@@ -6,7 +6,7 @@ if response.text:
     # ...
 ```
 
-1. Handle error if deserialization fails (because of no text or bad format)
+2. Handle error if deserialization fails (because of no text or bad format)
 ```python
 try:
     responses = response.json()
@@ -15,13 +15,13 @@ except ValueError:
     # no JSON returned
 ```
 
-1. check that .json() did NOT return an empty dict
+3. check that .json() did NOT return an empty dict
 ```python
 if responses:
     # ...
 ```
 
-1. safeguard against malformed data
+4. safeguard against malformed data
 ```python
 try:
     data = responses[some_key][some_index][...][...]
@@ -29,7 +29,7 @@ except (IndexError, KeyError, TypeError):
     # data does not have the inner structure you expect
 ```
 
-1. check if data is actually something useful (truthy in this example)
+5. check if data is actually something useful (truthy in this example)
 ```python
 if data:
     # ...
