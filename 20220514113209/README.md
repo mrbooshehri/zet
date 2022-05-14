@@ -2,7 +2,7 @@
 
 On machine A:
 ```bash
-telnet -u B_IP 123 
+nc -u B_IP 123 
 ```
 ```123``` is an example port
 
