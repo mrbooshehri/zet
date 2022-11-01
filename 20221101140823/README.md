@@ -19,3 +19,8 @@
 1. If necessary, click Customize Hardware and make the required changes.
 1. Click Finish.
 	* Your virtual machine is now created and the guest operating system starts. After the guest operating system starts, the VMware Tools installer begins automatically.
+
+Tags:
+```
+#vmware #vmdk
+```
