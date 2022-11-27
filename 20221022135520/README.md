@@ -1,5 +1,7 @@
 # docker entrypoint.sh
 
+1. Add your script like bellow in ```entrypoint.sh``` file
+
 ```bash
 #!/bin/bash
 set -e
@@ -17,6 +19,13 @@ the exit code of the failing command.
 that then runs the docker command. It will replace the current running
 shell with the command that "$@" is pointing to. By default, that
 variable points to the command line arguments.
+
+2. Add the following line in your docker file
+```bash
+COPY ./entrypoint.sh /
+ENTRYPOINT ["/entrypoint.sh"]
+CMD [<your-default-cmd>]
+```
 
 Tags:
 ```
