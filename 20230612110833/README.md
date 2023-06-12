@@ -15,6 +15,12 @@ HISTTIMEFORMAT=”%A %B %d – %r ”
 
 ```
 
+To apply timestamp to the history file add it to `.bashrc` file
+
+```bash
+export HISTTIMEFORMAT="%F %T "
+```
+
 
 Related:
 ```
