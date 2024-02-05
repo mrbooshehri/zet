@@ -1,8 +1,10 @@
+# Caching vs Buffering
+
 Caching and buffering are both techniques used in computing to improve
 performance, but they serve different purposes and operate at different
 levels of the system. Here's a comparison between the two:
 
-# Caching:
+## Caching:
 
 - **Definition**: Caching is the process of storing data in a temporary
 	storage area (cache) so that future requests for that data can be
@@ -20,7 +22,7 @@ levels of the system. Here's a comparison between the two:
 - **Examples**: Web browsers use caching to store images and scripts
 	locally, reducing the need to download them repeatedly.
 
-# Buffering:
+## Buffering:
 
 - **Definition**: Buffering is the process of temporarily holding data
 	in a buffer before processing it. This can help manage the flow of
